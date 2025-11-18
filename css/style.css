@@ -10,5 +10,78 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    color: #000000 ;
     
 }
+
+head{
+    background-color: #0F1587;
+}
+
+header{
+    background-color: #0F1587;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+.fondoff{ 
+    font-family: 'inter', sans-serif;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fondon{
+    background-color: #1f1f1f ;
+    font-family: 'inter', sans-serif;
+    color: #f6d16b;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.fondon1 {
+    background-color: #000000 ;
+    font-family: 'inter', sans-serif;
+    color: #ff7327;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fondon2 {
+    background-color: #1f1f1f ;
+    font-family: 'inter', sans-serif;
+    color: #f6d16b;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*
+section {
+    background-color: #224252;
+    font-family: 'inter', sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}*/
+
+
+/*
+#f6d16b jaune sylvia
+#1f1f1f gris sylvia
+#000000 noir sylvia
+*/
