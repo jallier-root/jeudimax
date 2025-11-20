@@ -47,6 +47,7 @@ header{
     padding: 18px 20px;
     box-sizing: border-box;
     block-size: 100px;
+    margin-bottom: 15%;
 }
 
 body {
@@ -114,7 +115,6 @@ h3{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-around;
 }
 
 .compt-card {
@@ -215,16 +215,41 @@ h3{
 }
 
 
-/*
-section {
-    background-color: #224252;
-    font-family: 'inter', sans-serif;
-    color: white;
-    padding: 20px;
-    margin: 0;
+.sticky-panel{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,0.9);
+    color: #fff;
     width: 100%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    backdrop-filter: blur(4px);
+}
+
+.sticky-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 18px;
     box-sizing: border-box;
-}*/
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+@media (max-width:700px){
+    .sticky-inner{
+        flex-direction: column;
+        gap: 8px;
+        padding: 10px;
+    }
+    .sticky-close{
+        width: 40px;
+        height: 36px;
+    }
+}
+
 
 
 
